@@ -33,7 +33,7 @@ const repositories = [
   {
     id: 'django.django',
     fullName: 'django/django',
-    description: 'The Web framework for perfectionists with deadlines.',
+    description: 'The Web framework for perfectionists with deadlines.s with deadlines.s with deadlines.s with deadlines.s with deadlines.',
     language: 'Python',
     forksCount: 21015,
     stargazersCount: 48496,
@@ -71,6 +71,7 @@ const RepositoryList = () => {
         stargazersCount={item.stargazersCount}
         ratingAverage={item.ratingAverage}
         reviewCount={item.reviewCount}
+        avatar={item.ownerAvatarUrl}
         />
       }
       keyExtractor={item => item.id}
